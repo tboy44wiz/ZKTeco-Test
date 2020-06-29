@@ -1,0 +1,129 @@
+/*
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    background: url("../img/cloud.jpg") no-repeat center;
+    background-size: cover;
+    height: 550px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.top--nav {
+    height: fit-content;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand--name {
+    color: #f3f3f3;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand--name-light {
+    font-family: 'Noto Sans', sans-serif;;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li {
+    color: #f3f3f3;
+    display: inline-block;
+    margin: 5px;
+    padding: 0 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+ul li:last-child {
+    border: 1px solid #f3f3f3;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+
+.bodyWrapper {
+    width: 100%;
+    margin-top: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.formWrapper {
+    width: 40%;
+}
+
+form .form--title {
+    color: #515151;
+}
+
+.inputBox input{
+    margin: 10px 0;
+    padding: 10px 5px;
+    background: #f3f3f3;
+    border: none;
+    border-radius: 5px;
+    box-shadow: #888888;
+}
+
+.buttonWrapper {
+    width: 220px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.date-adult {
+    border: 1px solid #b8b8b8;
+    background: #f3f3f3;
+    border-radius: 5px;
+    padding: 10px 60px 10px 10px;
+    font-size: 0.7rem;
+    color: #a0a0a0;
+}
+
+.btn--custom {
+    background: linear-gradient(to right, #9246ec, #6b95ea);
+    margin-top: 20px;
+    width: 220px;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    color: #f3f3f3;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
