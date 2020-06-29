@@ -81,14 +81,36 @@ form .form--title {
     color: #515151;
 }
 
+.inputBox {
+    width: 261px;
+    background: #ffffff;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 1px #ccc;
+    display: flex;
+}
 .inputBox input{
-    width: 250px;
-    margin: 10px 0;
+    width: 245px;
     padding: 10px 5px;
     background: #ffffff;
     border: none;
-    border-radius: 5px;
-    box-shadow: #888888;
+}
+.prefix--icon-shaded {
+    height: 9px;
+    width: 9px;
+    margin: 14px 10px;
+    background: #61b0fa;
+    border: none;
+    border-radius: 10px;
+}
+.prefix--icon-unshaded {
+    height: 8px;
+    width: 8px;
+    margin: 14px 10px;
+    background: transparent;
+    border: 1px solid #b1b0b0;
+    border-radius: 10px;
 }
 
 .buttonWrapper {
