@@ -92,7 +92,7 @@ form .form--title {
 }
 
 .buttonWrapper {
-    width: 260px;
+    width: 263px;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -114,13 +114,13 @@ form .form--title {
 .btn--custom {
     background: linear-gradient(to right, #9246ec, #6b95ea);
     margin-top: 20px;
-    width: 260px;
+    width: 262px;
     border: none;
-    padding: 10px;
+    padding: 15px;
     border-radius: 7px;
     color: #f3f3f3;
     font-weight: bold;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 
 .airplane {
