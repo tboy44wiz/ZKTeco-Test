@@ -1,6 +1,6 @@
 /*
     font-family: 'Noto Sans', sans-serif;
-
+    font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 */
 
@@ -19,7 +19,7 @@ body {
 }
 
 .mainContainer {
-    background: url("../img/cloud.jpg") no-repeat center;
+    background: url("../img/background.png") no-repeat center;
     background-size: cover;
     height: 550px;
     width: 800px;
@@ -36,14 +36,14 @@ body {
 }
 
 .brand--name {
-    color: #f3f3f3;
+    color: #3482cf;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
     font-size: 1.3rem;
 }
 .brand--name-light {
-    font-family: 'Noto Sans', sans-serif;;
-    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
 }
 
 ul {
@@ -53,10 +53,10 @@ ul li {
     color: #f3f3f3;
     display: inline-block;
     margin: 5px;
-    padding: 0 10px;
+    padding: 0 5px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 ul li:last-child {
     border: 1px solid #f3f3f3;
@@ -85,7 +85,7 @@ form .form--title {
     width: 250px;
     margin: 10px 0;
     padding: 10px 5px;
-    background: #f3f3f3;
+    background: #ffffff;
     border: none;
     border-radius: 5px;
     box-shadow: #888888;
@@ -98,13 +98,13 @@ form .form--title {
     justify-content: space-between;
 }
 .date-adult {
-    border: 1px solid #b8b8b8;
-    background: #f3f3f3;
+    border: 1px solid #d2d2d2;
+    background: #ffffff;
     display: flex;
     border-radius: 5px;
     padding: 10px 60px 10px 10px;
     font-size: 0.7rem;
-    color: #a0a0a0;
+    color: #b1b0b0;
 }
 .icons {
     margin-right: 5px;
