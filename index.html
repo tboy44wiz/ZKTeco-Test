@@ -59,10 +59,29 @@
                     </form>
                 </div>
                 
-                <!--AirPlane Image-->
-                <img src="img/airplane.png" class="airplane">
-                
+                <div class="airplaneWrapper">
+                    <!--AirPlane Image-->
+                    <img src="img/airplane.png" class="airplane">
+
+                    <!-- Vertical Switch -->
+                    <label class="switch">
+                        <!--<input type="checkbox">-->
+                        <div class="round" onclick="switchButton()"></div>
+                    </label>
+                </div>
             </div>
         </div>
+
+        <script>
+            const switchButton = () => {
+                let roundSwitch = document.querySelector(".round");
+                if (roundSwitch.classList.contains("checked")) {
+                    roundSwitch.classList.remove("checked");
+                }
+                else {
+                    roundSwitch.classList.add("checked");
+                }
+            };
+        </script>
     </body>
 </html>

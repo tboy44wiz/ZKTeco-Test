@@ -153,9 +153,32 @@ form .form--title {
     cursor: pointer;
 }
 
+.airplaneWrapper {
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .airplane {
     width: 450px;
     margin-top: 24px;
+}
+.switch {
+    height: 47px;
+    width: 14px;
+    background: #2251e2;
+    border-radius: 10px;
+}
+.round {
+    height: 15px;
+    width: 14px;
+    background: #f3f3f3;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+.checked {
+    transform: translateY(32px);
 }
 
 
