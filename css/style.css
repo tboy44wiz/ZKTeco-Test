@@ -21,10 +21,11 @@ body {
 .mainContainer {
     background: url("../img/background.png") no-repeat center;
     background-size: cover;
-    height: 480px;
-    width: 900px;
+    height: 500px;
+    width: 850px;
     border-radius: 10px;
     padding: 20px 50px;
+    box-shadow: 15px 12px 40px 10px #ccc;
 }
 
 .top--nav {
@@ -40,6 +41,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
     font-size: 1.3rem;
+    cursor: pointer;
 }
 .brand--name-light {
     font-family: 'Source Sans Pro', sans-serif;
@@ -53,13 +55,14 @@ ul li {
     color: #f3f3f3;
     display: inline-block;
     margin: 5px;
-    padding: 0 5px;
+    padding: 0 17px;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    font-size: 0.8rem;
+    font-weight: normal;
+    font-size: 0.7rem;
+    cursor: pointer;
 }
 ul li:last-child {
-    border: 1px solid #f3f3f3;
+    border: 1px solid #c6c5c5;
     padding: 7px 15px;
     border-radius: 4px;
 }
@@ -74,11 +77,12 @@ ul li:last-child {
 }
 
 .formWrapper {
-    width: 40%;
+    width: 38%;
 }
 
 form .form--title {
     color: #515151;
+    font-size: 1.4rem;
 }
 
 .inputBox {
@@ -87,7 +91,7 @@ form .form--title {
     margin: 20px 0;
     border: none;
     border-radius: 5px;
-    box-shadow: 3px 3px 5px 1px #ccc;
+    box-shadow: 4px 4px 10px 2px #eaeaea;
     display: flex;
 }
 .inputBox input{
@@ -95,6 +99,8 @@ form .form--title {
     padding: 10px 5px;
     background: #ffffff;
     border: none;
+    color: #8f8f8f;
+    font-size: 0.7rem;
 }
 .prefix--icon-shaded {
     height: 9px;
@@ -127,6 +133,7 @@ form .form--title {
     padding: 10px 60px 10px 10px;
     font-size: 0.7rem;
     color: #b1b0b0;
+    cursor: pointer;
 }
 .icons {
     margin-right: 5px;
@@ -138,15 +145,17 @@ form .form--title {
     margin-top: 20px;
     width: 262px;
     border: none;
-    padding: 15px;
+    padding: 12px;
     border-radius: 7px;
     color: #f3f3f3;
     font-weight: bold;
     font-size: 0.7rem;
+    cursor: pointer;
 }
 
 .airplane {
     width: 450px;
+    margin-top: 24px;
 }
 
 
